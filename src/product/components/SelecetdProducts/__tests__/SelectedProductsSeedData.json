@@ -1,0 +1,776 @@
+{
+  "computer_category_id": {
+    "item": {
+      "id": "computer_category_id",
+      "type": "category",
+      "label": "Computers",
+      "brands": [
+        {
+          "id": "apple_brand_id",
+          "type": "brand",
+          "label": "Apple",
+          "models": [
+            {
+              "id": "macbook_pro_model_id",
+              "type": "model",
+              "label": "Macbook Pro",
+              "variants": [
+                {
+                  "id": "14_inch_variant_id",
+                  "type": "variant",
+                  "label": "14 inch"
+                },
+                {
+                  "id": "16_inch_variant_id",
+                  "type": "variant",
+                  "label": "16 inch"
+                }
+              ]
+            },
+            {
+              "id": "macbook_air_model_id",
+              "type": "model",
+              "label": "Macbook Air",
+              "variants": [
+                {
+                  "id": "13_inch_variant_id",
+                  "type": "variant",
+                  "label": "13 inch"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "microsoft_brand_id",
+          "type": "brand",
+          "label": "Microsoft",
+          "models": [
+            {
+              "id": "surface_book_3_model_id",
+              "type": "model",
+              "label": "Surface Book 3",
+              "variants": [
+                {
+                  "id": "13_inch_variant_id",
+                  "type": "variant",
+                  "label": "13 inch"
+                },
+                {
+                  "id": "15_inch_variant_id",
+                  "type": "variant",
+                  "label": "15 inch"
+                }
+              ]
+            },
+            {
+              "id": "surface_laptop_go_model_id",
+              "type": "model",
+              "label": "Surface Laptop Go",
+              "variants": [
+                {
+                  "id": "128_gb_variant_id",
+                  "type": "variant",
+                  "label": "128GB"
+                },
+                {
+                  "id": "256_gb_variant_id",
+                  "type": "variant",
+                  "label": "256GB"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "parentList": []
+  },
+  "computer_category_id.apple_brand_id": {
+    "item": {
+      "id": "apple_brand_id",
+      "type": "brand",
+      "label": "Apple",
+      "models": [
+        {
+          "id": "macbook_pro_model_id",
+          "type": "model",
+          "label": "Macbook Pro",
+          "variants": [
+            {
+              "id": "14_inch_variant_id",
+              "type": "variant",
+              "label": "14 inch"
+            },
+            {
+              "id": "16_inch_variant_id",
+              "type": "variant",
+              "label": "16 inch"
+            }
+          ]
+        },
+        {
+          "id": "macbook_air_model_id",
+          "type": "model",
+          "label": "Macbook Air",
+          "variants": [
+            {
+              "id": "13_inch_variant_id",
+              "type": "variant",
+              "label": "13 inch"
+            }
+          ]
+        }
+      ]
+    },
+    "parentList": [
+      {
+        "id": "computer_category_id",
+        "type": "category",
+        "label": "Computers",
+        "brands": [
+          {
+            "id": "apple_brand_id",
+            "type": "brand",
+            "label": "Apple",
+            "models": [
+              {
+                "id": "macbook_pro_model_id",
+                "type": "model",
+                "label": "Macbook Pro",
+                "variants": [
+                  {
+                    "id": "14_inch_variant_id",
+                    "type": "variant",
+                    "label": "14 inch"
+                  },
+                  {
+                    "id": "16_inch_variant_id",
+                    "type": "variant",
+                    "label": "16 inch"
+                  }
+                ]
+              },
+              {
+                "id": "macbook_air_model_id",
+                "type": "model",
+                "label": "Macbook Air",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "microsoft_brand_id",
+            "type": "brand",
+            "label": "Microsoft",
+            "models": [
+              {
+                "id": "surface_book_3_model_id",
+                "type": "model",
+                "label": "Surface Book 3",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  },
+                  {
+                    "id": "15_inch_variant_id",
+                    "type": "variant",
+                    "label": "15 inch"
+                  }
+                ]
+              },
+              {
+                "id": "surface_laptop_go_model_id",
+                "type": "model",
+                "label": "Surface Laptop Go",
+                "variants": [
+                  {
+                    "id": "128_gb_variant_id",
+                    "type": "variant",
+                    "label": "128GB"
+                  },
+                  {
+                    "id": "256_gb_variant_id",
+                    "type": "variant",
+                    "label": "256GB"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "computer_category_id.microsoft_brand_id": {
+    "item": {
+      "id": "microsoft_brand_id",
+      "type": "brand",
+      "label": "Microsoft",
+      "models": [
+        {
+          "id": "surface_book_3_model_id",
+          "type": "model",
+          "label": "Surface Book 3",
+          "variants": [
+            {
+              "id": "13_inch_variant_id",
+              "type": "variant",
+              "label": "13 inch"
+            },
+            {
+              "id": "15_inch_variant_id",
+              "type": "variant",
+              "label": "15 inch"
+            }
+          ]
+        },
+        {
+          "id": "surface_laptop_go_model_id",
+          "type": "model",
+          "label": "Surface Laptop Go",
+          "variants": [
+            {
+              "id": "128_gb_variant_id",
+              "type": "variant",
+              "label": "128GB"
+            },
+            {
+              "id": "256_gb_variant_id",
+              "type": "variant",
+              "label": "256GB"
+            }
+          ]
+        }
+      ]
+    },
+    "parentList": [
+      {
+        "id": "computer_category_id",
+        "type": "category",
+        "label": "Computers",
+        "brands": [
+          {
+            "id": "apple_brand_id",
+            "type": "brand",
+            "label": "Apple",
+            "models": [
+              {
+                "id": "macbook_pro_model_id",
+                "type": "model",
+                "label": "Macbook Pro",
+                "variants": [
+                  {
+                    "id": "14_inch_variant_id",
+                    "type": "variant",
+                    "label": "14 inch"
+                  },
+                  {
+                    "id": "16_inch_variant_id",
+                    "type": "variant",
+                    "label": "16 inch"
+                  }
+                ]
+              },
+              {
+                "id": "macbook_air_model_id",
+                "type": "model",
+                "label": "Macbook Air",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "microsoft_brand_id",
+            "type": "brand",
+            "label": "Microsoft",
+            "models": [
+              {
+                "id": "surface_book_3_model_id",
+                "type": "model",
+                "label": "Surface Book 3",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  },
+                  {
+                    "id": "15_inch_variant_id",
+                    "type": "variant",
+                    "label": "15 inch"
+                  }
+                ]
+              },
+              {
+                "id": "surface_laptop_go_model_id",
+                "type": "model",
+                "label": "Surface Laptop Go",
+                "variants": [
+                  {
+                    "id": "128_gb_variant_id",
+                    "type": "variant",
+                    "label": "128GB"
+                  },
+                  {
+                    "id": "256_gb_variant_id",
+                    "type": "variant",
+                    "label": "256GB"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "computer_category_id.microsoft_brand_id.surface_book_3_model_id": {
+    "item": {
+      "id": "surface_book_3_model_id",
+      "type": "model",
+      "label": "Surface Book 3",
+      "variants": [
+        {
+          "id": "13_inch_variant_id",
+          "type": "variant",
+          "label": "13 inch"
+        },
+        {
+          "id": "15_inch_variant_id",
+          "type": "variant",
+          "label": "15 inch"
+        }
+      ]
+    },
+    "parentList": [
+      {
+        "id": "computer_category_id",
+        "type": "category",
+        "label": "Computers",
+        "brands": [
+          {
+            "id": "apple_brand_id",
+            "type": "brand",
+            "label": "Apple",
+            "models": [
+              {
+                "id": "macbook_pro_model_id",
+                "type": "model",
+                "label": "Macbook Pro",
+                "variants": [
+                  {
+                    "id": "14_inch_variant_id",
+                    "type": "variant",
+                    "label": "14 inch"
+                  },
+                  {
+                    "id": "16_inch_variant_id",
+                    "type": "variant",
+                    "label": "16 inch"
+                  }
+                ]
+              },
+              {
+                "id": "macbook_air_model_id",
+                "type": "model",
+                "label": "Macbook Air",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "microsoft_brand_id",
+            "type": "brand",
+            "label": "Microsoft",
+            "models": [
+              {
+                "id": "surface_book_3_model_id",
+                "type": "model",
+                "label": "Surface Book 3",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  },
+                  {
+                    "id": "15_inch_variant_id",
+                    "type": "variant",
+                    "label": "15 inch"
+                  }
+                ]
+              },
+              {
+                "id": "surface_laptop_go_model_id",
+                "type": "model",
+                "label": "Surface Laptop Go",
+                "variants": [
+                  {
+                    "id": "128_gb_variant_id",
+                    "type": "variant",
+                    "label": "128GB"
+                  },
+                  {
+                    "id": "256_gb_variant_id",
+                    "type": "variant",
+                    "label": "256GB"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "microsoft_brand_id",
+        "type": "brand",
+        "label": "Microsoft",
+        "models": [
+          {
+            "id": "surface_book_3_model_id",
+            "type": "model",
+            "label": "Surface Book 3",
+            "variants": [
+              {
+                "id": "13_inch_variant_id",
+                "type": "variant",
+                "label": "13 inch"
+              },
+              {
+                "id": "15_inch_variant_id",
+                "type": "variant",
+                "label": "15 inch"
+              }
+            ]
+          },
+          {
+            "id": "surface_laptop_go_model_id",
+            "type": "model",
+            "label": "Surface Laptop Go",
+            "variants": [
+              {
+                "id": "128_gb_variant_id",
+                "type": "variant",
+                "label": "128GB"
+              },
+              {
+                "id": "256_gb_variant_id",
+                "type": "variant",
+                "label": "256GB"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "computer_category_id.microsoft_brand_id.surface_book_3_model_id.13_inch_variant_id": null,
+  "computer_category_id.apple_brand_id.macbook_pro_model_id": {
+    "item": {
+      "id": "macbook_pro_model_id",
+      "type": "model",
+      "label": "Macbook Pro",
+      "variants": [
+        {
+          "id": "14_inch_variant_id",
+          "type": "variant",
+          "label": "14 inch"
+        },
+        {
+          "id": "16_inch_variant_id",
+          "type": "variant",
+          "label": "16 inch"
+        }
+      ]
+    },
+    "parentList": [
+      {
+        "id": "computer_category_id",
+        "type": "category",
+        "label": "Computers",
+        "brands": [
+          {
+            "id": "apple_brand_id",
+            "type": "brand",
+            "label": "Apple",
+            "models": [
+              {
+                "id": "macbook_pro_model_id",
+                "type": "model",
+                "label": "Macbook Pro",
+                "variants": [
+                  {
+                    "id": "14_inch_variant_id",
+                    "type": "variant",
+                    "label": "14 inch"
+                  },
+                  {
+                    "id": "16_inch_variant_id",
+                    "type": "variant",
+                    "label": "16 inch"
+                  }
+                ]
+              },
+              {
+                "id": "macbook_air_model_id",
+                "type": "model",
+                "label": "Macbook Air",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "microsoft_brand_id",
+            "type": "brand",
+            "label": "Microsoft",
+            "models": [
+              {
+                "id": "surface_book_3_model_id",
+                "type": "model",
+                "label": "Surface Book 3",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  },
+                  {
+                    "id": "15_inch_variant_id",
+                    "type": "variant",
+                    "label": "15 inch"
+                  }
+                ]
+              },
+              {
+                "id": "surface_laptop_go_model_id",
+                "type": "model",
+                "label": "Surface Laptop Go",
+                "variants": [
+                  {
+                    "id": "128_gb_variant_id",
+                    "type": "variant",
+                    "label": "128GB"
+                  },
+                  {
+                    "id": "256_gb_variant_id",
+                    "type": "variant",
+                    "label": "256GB"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apple_brand_id",
+        "type": "brand",
+        "label": "Apple",
+        "models": [
+          {
+            "id": "macbook_pro_model_id",
+            "type": "model",
+            "label": "Macbook Pro",
+            "variants": [
+              {
+                "id": "14_inch_variant_id",
+                "type": "variant",
+                "label": "14 inch"
+              },
+              {
+                "id": "16_inch_variant_id",
+                "type": "variant",
+                "label": "16 inch"
+              }
+            ]
+          },
+          {
+            "id": "macbook_air_model_id",
+            "type": "model",
+            "label": "Macbook Air",
+            "variants": [
+              {
+                "id": "13_inch_variant_id",
+                "type": "variant",
+                "label": "13 inch"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "computer_category_id.apple_brand_id.macbook_pro_model_id.14_inch_variant_id": {
+    "item": {
+      "id": "14_inch_variant_id",
+      "type": "variant",
+      "label": "14 inch"
+    },
+    "parentList": [
+      {
+        "id": "computer_category_id",
+        "type": "category",
+        "label": "Computers",
+        "brands": [
+          {
+            "id": "apple_brand_id",
+            "type": "brand",
+            "label": "Apple",
+            "models": [
+              {
+                "id": "macbook_pro_model_id",
+                "type": "model",
+                "label": "Macbook Pro",
+                "variants": [
+                  {
+                    "id": "14_inch_variant_id",
+                    "type": "variant",
+                    "label": "14 inch"
+                  },
+                  {
+                    "id": "16_inch_variant_id",
+                    "type": "variant",
+                    "label": "16 inch"
+                  }
+                ]
+              },
+              {
+                "id": "macbook_air_model_id",
+                "type": "model",
+                "label": "Macbook Air",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "microsoft_brand_id",
+            "type": "brand",
+            "label": "Microsoft",
+            "models": [
+              {
+                "id": "surface_book_3_model_id",
+                "type": "model",
+                "label": "Surface Book 3",
+                "variants": [
+                  {
+                    "id": "13_inch_variant_id",
+                    "type": "variant",
+                    "label": "13 inch"
+                  },
+                  {
+                    "id": "15_inch_variant_id",
+                    "type": "variant",
+                    "label": "15 inch"
+                  }
+                ]
+              },
+              {
+                "id": "surface_laptop_go_model_id",
+                "type": "model",
+                "label": "Surface Laptop Go",
+                "variants": [
+                  {
+                    "id": "128_gb_variant_id",
+                    "type": "variant",
+                    "label": "128GB"
+                  },
+                  {
+                    "id": "256_gb_variant_id",
+                    "type": "variant",
+                    "label": "256GB"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apple_brand_id",
+        "type": "brand",
+        "label": "Apple",
+        "models": [
+          {
+            "id": "macbook_pro_model_id",
+            "type": "model",
+            "label": "Macbook Pro",
+            "variants": [
+              {
+                "id": "14_inch_variant_id",
+                "type": "variant",
+                "label": "14 inch"
+              },
+              {
+                "id": "16_inch_variant_id",
+                "type": "variant",
+                "label": "16 inch"
+              }
+            ]
+          },
+          {
+            "id": "macbook_air_model_id",
+            "type": "model",
+            "label": "Macbook Air",
+            "variants": [
+              {
+                "id": "13_inch_variant_id",
+                "type": "variant",
+                "label": "13 inch"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "macbook_pro_model_id",
+        "type": "model",
+        "label": "Macbook Pro",
+        "variants": [
+          {
+            "id": "14_inch_variant_id",
+            "type": "variant",
+            "label": "14 inch"
+          },
+          {
+            "id": "16_inch_variant_id",
+            "type": "variant",
+            "label": "16 inch"
+          }
+        ]
+      }
+    ]
+  }
+}
