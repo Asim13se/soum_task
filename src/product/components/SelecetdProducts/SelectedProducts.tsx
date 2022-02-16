@@ -35,9 +35,13 @@ function SelectedProducts(props: Props) {
       <View testID={'selected_product_list_test_id'}>
         {selectedProductList.map(productItem => {
           if (!productItem) return null;
+          const key =
+            productItem.item.id +
+            productItem.parentList.map(parent => parent?.id);
           return (
             <SelectedProductItem
-              key={productItem.item.id}
+              key={key}
+              testID={productItem.item.id}
               productItem={productItem}
             />
           );
