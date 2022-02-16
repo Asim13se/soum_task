@@ -1,0 +1,228 @@
+{
+  "phone_category_id": {
+    "item": {
+      "id": "phone_category_id",
+      "type": "category",
+      "label": "Phones",
+      "brands": [
+        {
+          "id": "apple_brand_id",
+          "type": "brand",
+          "label": "Apple",
+          "models": [
+            {
+              "id": "iphone_13_model_id",
+              "type": "model",
+              "label": "iPhone 13",
+              "variants": [
+                {
+                  "id": "128_gb_variant_id",
+                  "type": "variant",
+                  "label": "128GB"
+                },
+                {
+                  "id": "256_gb_variant_id",
+                  "type": "variant",
+                  "label": "256GB"
+                }
+              ]
+            },
+            {
+              "id": "iphone_13_pro_model_id",
+              "type": "model",
+              "label": "iPhone 13 Pro",
+              "variants": [
+                {
+                  "id": "256_gb_variant_id",
+                  "type": "variant",
+                  "label": "256GB"
+                },
+                {
+                  "id": "512_gb_variant_id",
+                  "type": "variant",
+                  "label": "512GB"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "samsung_brand_id",
+          "type": "brand",
+          "label": "Samsung",
+          "models": [
+            {
+              "id": "galaxy_s22_model_id",
+              "type": "model",
+              "label": "Galaxy S22",
+              "variants": [
+                {
+                  "id": "256_gb_variant_id",
+                  "type": "variant",
+                  "label": "256GB"
+                },
+                {
+                  "id": "512_gb_variant_id",
+                  "type": "variant",
+                  "label": "512GB"
+                }
+              ]
+            },
+            {
+              "id": "galaxy_s22_ultra_model_id",
+              "type": "model",
+              "label": "Galaxy S22 Ultra",
+              "variants": [
+                {
+                  "id": "256_gb_variant_id",
+                  "type": "variant",
+                  "label": "256GB"
+                },
+                {
+                  "id": "512_gb_variant_id",
+                  "type": "variant",
+                  "label": "512GB"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "parentList": []
+  },
+  "phone_category_id.apple_brand_id": {
+    "item": {
+      "id": "apple_brand_id",
+      "type": "brand",
+      "label": "Apple",
+      "models": [
+        {
+          "id": "iphone_13_model_id",
+          "type": "model",
+          "label": "iPhone 13",
+          "variants": [
+            {
+              "id": "128_gb_variant_id",
+              "type": "variant",
+              "label": "128GB"
+            },
+            {
+              "id": "256_gb_variant_id",
+              "type": "variant",
+              "label": "256GB"
+            }
+          ]
+        },
+        {
+          "id": "iphone_13_pro_model_id",
+          "type": "model",
+          "label": "iPhone 13 Pro",
+          "variants": [
+            {
+              "id": "256_gb_variant_id",
+              "type": "variant",
+              "label": "256GB"
+            },
+            {
+              "id": "512_gb_variant_id",
+              "type": "variant",
+              "label": "512GB"
+            }
+          ]
+        }
+      ]
+    },
+    "parentList": [
+      {
+        "id": "phone_category_id",
+        "type": "category",
+        "label": "Phones",
+        "brands": [
+          {
+            "id": "apple_brand_id",
+            "type": "brand",
+            "label": "Apple",
+            "models": [
+              {
+                "id": "iphone_13_model_id",
+                "type": "model",
+                "label": "iPhone 13",
+                "variants": [
+                  {
+                    "id": "128_gb_variant_id",
+                    "type": "variant",
+                    "label": "128GB"
+                  },
+                  {
+                    "id": "256_gb_variant_id",
+                    "type": "variant",
+                    "label": "256GB"
+                  }
+                ]
+              },
+              {
+                "id": "iphone_13_pro_model_id",
+                "type": "model",
+                "label": "iPhone 13 Pro",
+                "variants": [
+                  {
+                    "id": "256_gb_variant_id",
+                    "type": "variant",
+                    "label": "256GB"
+                  },
+                  {
+                    "id": "512_gb_variant_id",
+                    "type": "variant",
+                    "label": "512GB"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "samsung_brand_id",
+            "type": "brand",
+            "label": "Samsung",
+            "models": [
+              {
+                "id": "galaxy_s22_model_id",
+                "type": "model",
+                "label": "Galaxy S22",
+                "variants": [
+                  {
+                    "id": "256_gb_variant_id",
+                    "type": "variant",
+                    "label": "256GB"
+                  },
+                  {
+                    "id": "512_gb_variant_id",
+                    "type": "variant",
+                    "label": "512GB"
+                  }
+                ]
+              },
+              {
+                "id": "galaxy_s22_ultra_model_id",
+                "type": "model",
+                "label": "Galaxy S22 Ultra",
+                "variants": [
+                  {
+                    "id": "256_gb_variant_id",
+                    "type": "variant",
+                    "label": "256GB"
+                  },
+                  {
+                    "id": "512_gb_variant_id",
+                    "type": "variant",
+                    "label": "512GB"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

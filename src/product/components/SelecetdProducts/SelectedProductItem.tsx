@@ -4,6 +4,7 @@ import {ExpandedProductItem} from '../ProductTreeView/types/ExpandedProductItems
 
 type Props = {
   productItem: ExpandedProductItem;
+  testID?: string;
 };
 
 function SelectedProductItem(props: Props) {
@@ -13,7 +14,7 @@ function SelectedProductItem(props: Props) {
   ];
   const hierarchLabel = hierarchyList.map(item => item?.label).join(' > ');
   return (
-    <View style={styles.main}>
+    <View testID={props.testID} style={styles.main}>
       <Text style={styles.text}>{hierarchLabel}</Text>
     </View>
   );
